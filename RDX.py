@@ -755,7 +755,7 @@ def Subscraption():
 	key1=open('/data/data/com.termux/files/usr/bin/.mrkausar-cov', 'r').read()
 	clear()
 	print(logo)
-	r1=requests.get("https://github.com/robiul-cyber404/RDX9/blob/main/appro.txt").text
+	r1=requests.get("https://github.com/robiul-cyber404/AXI/blob/main/robiul_appro.txt").text
 	if key1 in r1:
 		os.system('clear')
 		print(logo)
