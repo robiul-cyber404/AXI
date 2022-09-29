@@ -97,7 +97,7 @@ except:
 def clear():
     os.system('clear')
     print(logo)
-    
+   
 logo ="""########     ###    ##    ## #### ########  
 ##     ##   ## ##   ##   ##   ##  ##     ## 
 ##     ##  ##   ##  ##  ##    ##  ##     ## 
@@ -132,7 +132,7 @@ def checks(ok,cp):
               (H, P, str(len(cp))))
         input("\x1b[1;97mPRESE ENTER TO BACK MENU ")
         xyz()
-#---------------------[LOOP MENU]---------------------#
+
 loop = 0
 cp = []
 ok = []
